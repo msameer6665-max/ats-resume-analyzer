@@ -18,8 +18,8 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
-DEFAULT_MODEL = "gemini-2.5-flash"
-MODEL_OPTIONS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-flash-latest"]
+DEFAULT_MODEL = "gemini-3.8-flash"
+MODEL_OPTIONS = ["gemini-3.8-flash", "gemini-3.8-flash-lite", "gemini-flash-latest"]
 MAX_FILE_MB = 5
 MIN_RESUME_CHARS = 200      # below this the file is probably scanned / empty
 MAX_RESUME_CHARS = 15000    # keeps the prompt small and cheap
